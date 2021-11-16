@@ -1,3 +1,4 @@
+import 'package:clone_flutter_instagram/constants/material_white.dart';
 import 'package:flutter/material.dart';
 import 'home_page.dart';
 
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget{
     // TODO: implement build
     return MaterialApp(
       home: homepage(),
+      theme: ThemeData(primarySwatch: white),
     );
   }
 }
